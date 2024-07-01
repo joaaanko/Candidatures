@@ -1,0 +1,174 @@
+---
+title: "Jeong Hwan Ko's resume"
+author: Jeong Hwan Ko
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['cv.css', 'resume']
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> joanko35@gmail.com
+- <i class="fa fa-linkedin"></i> [linkedin.com/in/jeong-hwan-ko](https://www.linkedin.com/in/jeong-hwan-ko/) 
+- <i class="fa fa-github"></i> [github.com/joaaanko](https://github.com/joaaanko)
+- <i class="fa fa-phone"></i> 06 58 54 14 65
+
+Pour plus d'informations, vous pouvez me contacter par mail.
+
+Programmation {#skills-Programmation}
+--------------------------------------------------------------------------------
+
+* Programmation en __R__ & __Python__.
+* Ligne de commande avec __bash__.
+* __Git__ & gestion de versions.
+
+Data Science {#skills-datascience}
+--------------------------------------------------------------------------------
+
+- Manipulation, Traitement & Visualisation des données avec __R (tidyverse/ggplot)__ & __Python (numpy/pandas/matplotlib)__.
+- Inférence et prédiction en utilisant des modèles de __Machine Learning__ paramétriques & non-paramétriques avec __scikit-Learn__.
+- __Deep Learning__ avec __Keras & Tensorflow__.
+- Écritures de documents scientifiques en utilisant [Rmarkdown](https://rmarkdown.rstudio.com/), __LaTeX__ et __Jupyter Notebook__ (présentations/rapports automatiques/CV)
+
+Langues {#skills-langues}
+--------------------------------------------------------------------------------
+
+* Anglais scientifique : __C1 Advanced__, Cambridge English.
+* Coréen : langue maternelle
+* Polonais et Espagnol : intermédiaire
+
+Centres d'intérêt {#skills-langues}
+--------------------------------------------------------------------------------
+
+* Violon - depuis 2005
+* Basketball - niveau amateur et anciennement en club et en compétitif
+
+Document généré le `r today <- Sys.Date();format(today, format="%d %B %Y")`.
+
+
+
+Main
+================================================================================
+
+<b style='color:#2980b9'>J</b>eong <b style='color:#2980b9'>H</b>wan <b style='color:#2980b9'>K</b>o {#title}
+--------------------------------------------------------------------------------
+
+### Recherche d'emploi en data science pour 3e trimestre 2024. 
+
+A la recherche d'un emploi dans le domaine de la Data Science - Intelligence Artificielle, pour commencer à l'issu de mes expériences en recherche en Statistique Appliquée.
+
+Expérience Professionnelle {data-icon=suitcase}
+--------------------------------------------------------------------------------
+### Doctorant en Statistique Appliquée
+
+INRAE - Equipe SaAB
+
+Toulouse, France
+
+2023 - Présent
+
+Je travaille sur des projets à long terme en collaboration avec des chercheur.es en biologie animale et en statistique provenenant de diverses institutions.
+
+#### Compétences générales :
+
+- Présenter & Rédiger des résultats de recherche, en anglais & en français, pour des conférences et/ou publications scientifiques.
+- Veille bibliographique pour déterminer les méthodes statistiques adéquate aux données utilisées.
+- Vulgarisation scientifique.
+
+#### Traitement, Analyse, Inférence Visualisation de données :
+
+
+- Traitement & Analyse des données biologiques "brutes" de façon à les rendre exploitables via différentes pipelines informatiques. 
+- Expliquer & visualiser des données complexes en utilisant des méthodes simples. 
+- Réduction de dimension pour expliquer des jeux de données à grande dimension.
+
+### Data Scientist
+
+Caisse d'Epargne Midi-Pyréenées
+
+Toulouse, France
+
+2021-2022
+
+- Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de Machine Learning. 
+- Data Mining de données publiques afin de mettre en place des stratégies d'investissement immobilier écologiques
+- Optimisaton d'algorithmes de correspondance entre champs dans de grandes bases de données.
+
+
+### Ingénieur en traitement d'images
+
+Comité International de la Croix Rouge.
+
+Toulouse, France
+
+2021
+
+- Traitement d'images pour but d'aide à l'identification des personnes disparues en utilisant des images médico-légales
+- Développement d'algorithmes automatiques et semi-automatiques de traitement d'images  (alignement, centrage de visage de visage, suppression de l'arrière-plan, synthétisation d'image à l'aide de réseaux de neurones)
+- Manipulation d'outils de pointe
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Diplôme d'ingénieur en Mathématiques Appliquées
+
+INSA Toulouse
+
+Toulouse, France
+
+2017 - 2022
+
+- En collaboration avec l'Ecole Nationale de la Météorlogie : prédiction de cumul de pluie quotidien sur les stations de mesure sur le Nord-Est Français en utilisant des méthodes de Machine Learning et des séries temporelles (Python)
+- En collaboration avec le CNES : détection, quantification et études des impacts de feux de forêts en utilisant des algorithmes de traitement d'image (Python)
+- Prévision de la popularité d'une chanson en utilisant ses données caractéristiques fournies par Spotify en utilisant des méthodes de Machine Learning (Python, R)
+- Analyse de données (classification, clustering, analyse en compostantes principales) sur le profil de chargement des station de vélib à Paris (Python, R)
+
+### Baccalauréat Scientifique
+
+Lycée Français de Varsovie
+
+Varsovie, Pologne
+
+2004 - 2017
+
+- Mention Très Bien
+
+Conférences {data-icon=file}
+--------------------------------------------------------------------------------
+### Analyse de la spécificité des associations génétiques dans les études multi-population.
+
+Journées de la Statique de la SFdS
+
+Bordeaux, France
+
+2024
+
+Enseignement {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Statistique Descriptive.
+
+INSA Toulouse
+
+Toulouse, France
+
+2024
+
+- Enseignement de __R__ aux étudiants (équivalent L3). 
+- TD et TP sur l'analyse exploratoire de données et méthodes de clustering
+
+<!-- ### Licence biologie - Parcours Biochimie, biologie moléculaire, cellulaire et physiologie -->
+
+<!-- Université de Rouen -->
+
+<!-- Rouen, France -->
+
+<!-- 2014 - 2017 -->
