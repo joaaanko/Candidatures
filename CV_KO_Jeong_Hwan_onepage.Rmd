@@ -69,26 +69,22 @@ Expérience Professionnelle {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ### Doctorant en Statistique Appliquée
 
-INRAE - Equipe SaAB
+INRAE
 
-Toulouse, France
+Toulouse & Jouy-en-Josas, France
 
 2023 - Présent
 
-Je travaille sur des projets à long terme en collaboration avec des chercheur.es en biologie animale et en statistique provenenant de diverses institutions.
+__Compétences générales__ :
 
-#### Compétences générales :
+- Présentations & Rédaction de résultats de recherche.
+- Veille bibliographique  et vulgarisation scientifique.
+- Traitement, Analyse, Inférence Visualisation de données.
 
-- Présenter & Rédiger des résultats de recherche, en anglais & en français, pour des conférences et/ou publications scientifiques.
-- Veille bibliographique pour déterminer les méthodes statistiques adéquate aux données utilisées.
-- Vulgarisation scientifique.
+__Communications & Enseignements__ : 
 
-#### Traitement, Analyse, Inférence Visualisation de données :
-
-
-- Traitement & Analyse des données biologiques "brutes" de façon à les rendre exploitables via différentes pipelines informatiques. 
-- Expliquer & visualiser des données complexes en utilisant des méthodes simples. 
-- Réduction de dimension pour expliquer des jeux de données à grande dimension.
+- Présentation aux __Journées de la Statistique de la SFdS__
+- __Enseignement__ de statistique descriptive et clustering
 
 ### Data Scientist
 
@@ -98,9 +94,8 @@ Toulouse, France
 
 2023
 
-- Implémentation d'algorithmes de Computer Vision pour guider un utilisateur à la bonne utilisation d'un inhalateur
-- Développement en __Python__ avec des librairies de __Deep Learning__
-- Méthode Agile
+- Implémentation d'algorithmes de Computer Vision pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__
+- Méthode __Agile__
 
 ### Data Scientist
 
@@ -112,7 +107,6 @@ Toulouse, France
 
 - Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de Machine Learning. 
 - Data Mining de données publiques afin de mettre en place des stratégies d'investissement immobilier écologiques
-- Optimisaton d'algorithmes de correspondance entre champs dans de grandes bases de données.
 
 
 ### Ingénieur en traitement d'images
@@ -123,9 +117,7 @@ Toulouse, France
 
 2021
 
-- Traitement d'images pour but d'aide à l'identification des personnes disparues en utilisant des images médico-légales
-- Développement d'algorithmes automatiques et semi-automatiques de traitement d'images  (alignement, centrage de visage de visage, suppression de l'arrière-plan, synthétisation d'image à l'aide de réseaux de neurones)
-- Manipulation d'outils de pointe, en __Python__
+Développement d'algorithmes automatiques et semi-automatiques de traitement d'images en Python pour l'identification des personnes disparues, incluant alignement, centrage de visage, suppression de l'arrière-plan et synthétisation d'images avec des réseaux de neurones.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -138,10 +130,7 @@ Toulouse, France
 
 2017 - 2022
 
-- En collaboration avec l'Ecole Nationale de la Météorlogie : prédiction de cumul de pluie quotidien sur les stations de mesure sur le Nord-Est Français en utilisant des méthodes de Machine Learning et des séries temporelles (__Python__)
-- En collaboration avec le CNES : détection, quantification et études des impacts de feux de forêts en utilisant des algorithmes de traitement d'image (__Python__)
-- Prévision de la popularité d'une chanson en utilisant ses données caractéristiques fournies par Spotify en utilisant des méthodes de Machine Learning (__Python__, __R__)
-- Analyse de données (classification, clustering, analyse en compostantes principales) sur le profil de chargement des station de vélib à Paris (__Python__, __R__)
+Statistique Appliquée, Modélisation statistique, traitement d'image, Machine & Deep Learning
 
 ### Baccalauréat Scientifique - Mention Très Bien
 
@@ -150,36 +139,3 @@ Lycée Français de Varsovie
 Varsovie, Pologne
 
 2004 - 2017
-
-
-Conférences {data-icon=file}
---------------------------------------------------------------------------------
-### Analyse de la spécificité des associations génétiques dans les études multi-population.
-
-Journées de la Statique de la SFdS
-
-Bordeaux, France
-
-2024
-
-Enseignement {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-### Statistique Descriptive.
-
-INSA Toulouse
-
-Toulouse, France
-
-2024
-
-- Enseignement de __R__ aux étudiants (équivalent L3). 
-- TD et TP sur l'analyse exploratoire de données et méthodes de clustering
-
-<!-- ### Licence biologie - Parcours Biochimie, biologie moléculaire, cellulaire et physiologie -->
-
-<!-- Université de Rouen -->
-
-<!-- Rouen, France -->
-
-<!-- 2014 - 2017 -->
