@@ -1,0 +1,6 @@
+# Ignore LaTeX build files
+*.pdf
+*.log
+*.fls
+*.fdb_latexmk
+*.aux
