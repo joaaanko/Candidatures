@@ -64,7 +64,7 @@ Main
 
 ### Data Scientist avec spécialité en Statistique et IA
 
-Ingénieur en Mathématiques Appliquées avec un grand intérêt pour le développement, je cherche un CDI dans le domaine de la Data ou du développement logiciel.    
+Ingénieur en Mathématiques Appliquées avec un grand intérêt pour le développement et le traitement d'image, je cherche un CDI dans le domaine de la Data ou du développement logiciel.    
 
 Expérience Professionnelle {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -74,16 +74,10 @@ _INRAE_
 
 Toulouse & Jouy-en-Josas, France
 
-2023 - Présent
-
-__Compétences générales__ :
+2023 - 2024
 
 - Veille bibliographique, rédaction de résultats de recherche.
-- Analyse de données biologiques, représentations graphiques et interprétation des résultats selon le contexte biologique. 
-- Traitement, Analyse, Inférence Visualisation de données.
-
-__Communications & Enseignements__ : 
-
+- Analyse de données biologiques, représentations graphiques et interprétation des résultats selon le contexte biologique, rédaction de documentation.
 - [Abstract et présentation](https://hal.science/hal-04593233v1) aux __Journées de la Statistique de la Société Française de Statistique__
 - __Enseignement__ de statistique descriptive et clustering aux étudiants en 3ème année de l'INSA Toulouse
 
@@ -95,8 +89,8 @@ Toulouse, France
 
 2023
 
-- Implémentation d'algorithmes de Computer Vision pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__
-- Méthode __Agile__
+- Implémentation d'algorithmes de Computer Vision pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__, en __Python__.
+- Méthode __Agile__.
 
 ### Data Scientist
 
@@ -106,8 +100,8 @@ Toulouse, France
 
 2021-2022
 
-- Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de Machine Learning. 
-- Data Mining de données publiques afin de mettre en place des stratégies d'investissement immobilier écologiques
+- Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de Machine Learning, __Python__. 
+- Data Mining de données publiques afin de mettre en place des stratégies d'investissement immobilier écologiques, __Python__.
 
 
 ### Ingénieur en traitement d'images
@@ -118,7 +112,7 @@ Toulouse, France
 
 2021
 
-Développement d'algorithmes en Python pour l'identification de personnes disparues : alignement, centrage de visage, suppression d'arrière-plan et synthèse d'images avec réseaux de neurones.
+Développement et tests d'algorithmes en Python pour l'identification de personnes disparues : alignement, centrage de visage, suppression d'arrière-plan et synthèse d'images avec réseaux de neurones, __Python__, __C++__.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
