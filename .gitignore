@@ -7,3 +7,5 @@
 *.synctex.gz
 
 *.html
+.Rproj.user
+.Rhistory
