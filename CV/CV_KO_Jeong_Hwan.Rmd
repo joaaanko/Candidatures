@@ -1,13 +1,13 @@
 ---
-title: "Jeong Hwan Ko's resume"
-author: Jeong Hwan Ko
+title: "Joan Ko's resume"
+author: Joan Ko
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     css: ['cv.css', 'resume']
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
-# knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 Aside
@@ -18,7 +18,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> joanko35@gmail.com
-- <i class="fa fa-linkedin"></i> [linkedin.com/in/jeong-hwan-ko](https://www.linkedin.com/in/jeong-hwan-ko/) 
+- <i class="fa fa-linkedin"></i> [linkedin.com/in/joan-ko](https://www.linkedin.com/in/joan-ko/) 
 - <i class="fa fa-github"></i> [github.com/joaaanko](https://github.com/joaaanko)
 - <i class="fa fa-phone"></i> 06 58 54 14 65
 
@@ -30,6 +30,7 @@ Programmation {#skills-Programmation}
 * Programmation en __R__ & __Python__.
 * Ligne de commande avec __bash__.
 * __Git__ & gestion de versions.
+* __M__ et __DAX__ pour __Power BI__
 
 Data Science {#skills-datascience}
 --------------------------------------------------------------------------------
@@ -46,35 +47,48 @@ Langues {#skills-langues}
 * Anglais : [C1 Advanced](https://www.cambridgeenglish.org/exams-and-tests/advanced/), Cambridge English.
 * Polonais et Espagnol : intermédiaire
 
-Centres d'intérêt {#skills-langues}
+Centres d'intérêt {#interests}
 --------------------------------------------------------------------------------
 
 * Violon - depuis 2005
 * Basketball 
 
-<!-- Document généré le `r today <- Sys.Date();format(today, format="%d %B %Y")`. -->
+Document généré le `r today <- Sys.Date();format(today, format="%d/%m/%Y")`.
 
 
 
 Main
 ================================================================================
 
-<b style='color:#2980b9'>J</b>eong <b style='color:#2980b9'>H</b>wan <b style='color:#2980b9'>K</b>o {#title}
+<b style='color:#2980b9'>J</b>oan <b style='color:#2980b9'>K</b>o {#title}
 --------------------------------------------------------------------------------
 
-### Data Scientist avec spécialité en Statistique et IA
-
-Ingénieur en Mathématiques Appliquées avec un grand intérêt pour le développement et le traitement d'image, je cherche un CDI dans le domaine de la Data ou du développement logiciel.    
+### Chargé d'études actuarielles 
+### Ingénieur en mathématiques appliquées | Statistiques & IA
 
 Expérience Professionnelle {data-icon=suitcase}
 --------------------------------------------------------------------------------
-### CDD, Analyse de la spécificité des associations génétiques dans les études multi-population
+
+### Chargé d'études actuarielles
+
+_Mutuelle Prévifrance_
+
+Toulouse, France
+
+2026 - 2024
+
+- __Tarification Santé & Prévoyance__ (marché public et privé), en support direct aux équipes commerciales.
+- Suivi de portefeuille : __Provisions techniques Solvabilité II__, création de __comptes de résultats__ et suivi du ratio P/C.
+- __Analyses statistiques__, automatisation de __reportings__ (Power BI) pour améliorer le suivi et la performance portefeuille
+
+
+### Analyse de la spécificité des associations génétiques dans les études multi-population
 
 _INRAE_
 
 Toulouse & Jouy-en-Josas, France
 
-2023 - 2024
+2024 - 2023
 
 - Veille bibliographique, rédaction de résultats de recherche.
 - Analyse de données biologiques, représentations graphiques et interprétation des résultats selon le contexte biologique, rédaction de documentation.
@@ -89,8 +103,7 @@ Toulouse, France
 
 2023
 
-- Implémentation d'algorithmes de Computer Vision pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__, en __Python__.
-- Méthode __Agile__.
+- Implémentation d'algorithmes de **Computer Vision** pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__, en __Python__.
 
 ### Data Scientist
 
@@ -98,21 +111,11 @@ _Caisse d'Epargne Midi-Pyréenées_
 
 Toulouse, France
 
-2021-2022
+2022-2021
 
-- Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de Machine Learning, __Python__. 
-- Data Mining de données publiques afin de mettre en place des stratégies d'investissement immobilier écologiques, __Python__.
+- Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de __Machine Learning__, __Python__. 
+- Data Mining de pour mise en place des stratégies d'investissement immobilier écologiques, __Python__.
 
-
-### Ingénieur en traitement d'images
-
-_Comité International de la Croix Rouge_
-
-Toulouse, France
-
-2021
-
-Développement et tests d'algorithmes en Python pour l'identification de personnes disparues : alignement, centrage de visage, suppression d'arrière-plan et synthèse d'images avec réseaux de neurones, __Python__, __C++__.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -123,9 +126,9 @@ _INSA Toulouse_
 
 Toulouse, France
 
-2017 - 2022
+2022 - 2017
 
-Statistique Appliquée, Modélisation statistique, traitement d'image, Machine & Deep Learning, Actuariat
+- Statistique Appliquée, Modélisation statistique, traitement d'image, Machine & Deep Learning, Actuariat
 
 ### Baccalauréat Scientifique - Mention Très Bien
 
