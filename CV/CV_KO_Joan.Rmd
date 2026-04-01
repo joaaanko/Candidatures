@@ -43,17 +43,18 @@ Data Science {#skills-datascience}
 
 Langues {#skills-langues}
 --------------------------------------------------------------------------------
-* Français, Coréen : courant
-* Anglais : [C1 Advanced](https://www.cambridgeenglish.org/exams-and-tests/advanced/), Cambridge English.
-* Polonais et Espagnol : intermédiaire
+* Français : Courant
+* Coréen : Courant
+* Anglais : [C1 Advanced](https://www.cambridgeenglish.org/exams-and-tests/advanced/), _Cambridge_
+* Polonais : intermédiaire
+* Espagnol : intermédiaire
 
 Centres d'intérêt {#interests}
 --------------------------------------------------------------------------------
 
 * Violon - depuis 2005
 * Basketball 
-
-Document généré le `r today <- Sys.Date();format(today, format="%d/%m/%Y")`.
+<!-- *Document généré le `r today <- Sys.Date();format(today, format="%d/%m/%Y")`.* -->
 
 
 
@@ -63,7 +64,6 @@ Main
 <b style='color:#2980b9'>J</b>oan <b style='color:#2980b9'>K</b>o {#title}
 --------------------------------------------------------------------------------
 
-### Chargé d'études actuarielles 
 ### Ingénieur en mathématiques appliquées | Statistiques & IA
 
 Expérience Professionnelle {data-icon=suitcase}
@@ -79,20 +79,20 @@ Toulouse, France
 
 - __Tarification Santé & Prévoyance__ (marché public et privé), en support direct aux équipes commerciales.
 - Suivi de portefeuille : __Provisions techniques Solvabilité II__, création de __comptes de résultats__ et suivi du ratio P/C.
-- __Analyses statistiques__, automatisation de __reportings__ (Power BI) pour améliorer le suivi et la performance portefeuille
+- __Analyses statistiques__ en __R__, automatisation de __reportings__ (Power BI) pour améliorer le suivi et la performance portefeuille
 
 
 ### Analyse de la spécificité des associations génétiques dans les études multi-population
 
-_INRAE_
+_INRAE_ -  Unité de Mathématiques et Informatique Appliquées de Toulouse (MIAT)
 
 Toulouse & Jouy-en-Josas, France
 
 2024 - 2023
 
 - Veille bibliographique, rédaction de résultats de recherche.
-- Analyse de données biologiques, représentations graphiques et interprétation des résultats selon le contexte biologique, rédaction de documentation.
-- [Abstract et présentation](https://hal.science/hal-04593233v1) aux __Journées de la Statistique de la Société Française de Statistique__
+- Inférence de données biologiques en __R__, représentations graphiques et interprétation des résultats selon le contexte biologique, rédaction de documentation.
+- [Abstract et présentation](https://hal.science/hal-04593233v1) aux [Journées de la Statistique de la Société Française de Statistique](https://jds2024.sciencesconf.org/).
 - __Enseignement__ de statistique descriptive et clustering aux étudiants en 3ème année de l'INSA Toulouse
 
 ### Data Scientist
@@ -114,8 +114,33 @@ Toulouse, France
 2022-2021
 
 - Implémentation de modèles de prédiction d'appétence à un investissement immobilier par méthodes de __Machine Learning__, __Python__. 
-- Data Mining de pour mise en place des stratégies d'investissement immobilier écologiques, __Python__.
+- Data Mining de pour mise en place des stratégies d'investissement immobilier écologiques, __Python__, __SQL__.
+- Développement d'algorithmes de __traitement d'image__ pour automatiser la lecture de documents administratifs avec algorithmes d'__OCR__.
 
+### Stagiaire en traitement d'images
+_Comité International de la Croix-Rouge_
+
+Toulouse, France
+
+2021
+
+- Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__.
+- Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images. 
+- Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, repmplacement de traits faciaux avec des éléments d'une base de données.
+
+Enseignement {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Statistique descriptive
+
+__INSA Toulouse__
+
+Toulouse, France
+
+2024 (20h)
+
+- Enseignement TP pour les étudiants de 3ème année de Mathématiques Appliquées à l'INSA Toulouse.
+- Introduction à R, éléments de statistique descriptive, clustering.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -128,7 +153,24 @@ Toulouse, France
 
 2022 - 2017
 
-- Statistique Appliquée, Modélisation statistique, traitement d'image, Machine & Deep Learning, Actuariat
+#### Matières :
+
+- Statistiques & Data Science : Statistique Inférentielle, Statistiques descriptives, Modélisation, Analyse de données, __Machine Learning & Deep Learning__
+- Mathématiques appliquées : Calcul stochastique, Optimisation, Actuariat, Modèles de durée de vie
+- Traitement du signal & Calcul scientifique : __Traitement d’image__, __Traitement du signal__, HPC (High Performance Computing)
+
+#### Projets marquants : 
+- [Projet de monitoring d'incendies](https://github.com/jayalabanda/projet-CNES/tree/main) :
+    -  __Traitement d'images__ satellite __Sentinel-2__ et cartographie en collaboration avec le __CNES__ pour détecter, quantifier et étudier l'impact des incendies, avec __Python__.
+    - Acquisition et traitement d’images satellites (Sentinel) via __API Python__.
+    - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle).
+    - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées.
+    - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent).
+- Projets de modélisation aléatoire :
+    - Approximation de π grâce au problème de l'aiguille de Buffon
+    - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette
+    - Détection de changement de boules sur un tirage d'EuroMillions
+    - Problème de Monty Hall, en __Python__ et __R__.
 
 ### Baccalauréat Scientifique - Mention Très Bien
 
