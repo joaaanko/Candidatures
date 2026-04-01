@@ -126,7 +126,7 @@ Toulouse, France
 
 - Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__.
 - Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images. 
-- Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, repmplacement de traits faciaux avec des éléments d'une base de données.
+- Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, remplacement de traits faciaux avec des éléments d'une base de données.
 
 Enseignement {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -166,6 +166,11 @@ Toulouse, France
     - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle).
     - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées.
     - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent).
+- Prédiction des cumuls journaliers de précipitations :
+    - Modélisation des précipitations journalières à partir de données de stations au sol.
+    - Mise en place de modèles de __Machine Learning__ (Random Forest, XGBoost, SVR, MLP).
+    - Benchmarking des modèles
+
 - Projets de modélisation aléatoire :
     - Approximation de π grâce au problème de l'aiguille de Buffon
     - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette
