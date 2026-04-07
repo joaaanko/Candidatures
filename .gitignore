@@ -9,3 +9,5 @@
 *.html
 .Rproj.user
 .Rhistory
+
+*/output/*
