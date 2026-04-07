@@ -15,8 +15,8 @@ knit: |
     company <- "Crédit Agricole"
     # ========================================
 
-    # Sanitize company name for folder/file
-    company_clean <- gsub("\\s+", "_", company)
+    # Sanitize company name for folder/file (replace spaces & accents)
+    company_clean <- gsub("[^A-Za-z0-9_]", "_", iconv(company, to="ASCII//TRANSLIT"))
     date <- format(Sys.Date(), "%Y-%m")
 
     # Create nested output folder
@@ -26,23 +26,19 @@ knit: |
     # HTML output path
     html_file <- file.path(out_dir, paste0("CV_Joan_KO_", company_clean, ".html"))
 
-    # Render HTML with CSS
+    # Render HTML with CSS silently
     rmarkdown::render(
       input,
       output_format = pagedown::html_resume(css = c('cv.css', 'resume'), self_contained = TRUE),
       output_file = html_file,
-      envir = parent.frame()
+      envir = parent.frame(),
+      quiet = TRUE
     )
 
-    # PDF output path (silent, ignores favicon errors)
-    pdf_file <- file.path(out_dir, paste0("CV_Joan_KO_", company_clean, ".pdf"))
-    tryCatch(
-      pagedown::chrome_print(input = html_file, output = pdf_file),
-      error = function(e) invisible()
-    )
-
-    # Copy Rmd to same folder
+    # Copy Rmd into same folder
     file.copy(input, file.path(out_dir, basename(input)), overwrite = TRUE)
+    
+    print('Done!')
   })
 ---
 
@@ -75,7 +71,7 @@ Data Science {#skills-datascience}
 - Inférence et prédiction en utilisant des modèles de __Machine Learning__ paramétriques & non-paramétriques avec __scikit-learn__.
 - __Deep Learning__ avec __Keras & Tensorflow__.
 - Computer Vision avec __OpenCV__.
-- Écritures de documents scientifiques en utilisant [Rmarkdown](https://rmarkdown.rstudio.com/), __LaTeX__ et __Jupyter Notebook__ (présentations/rapports automatiques)
+<!-- - Écritures de documents scientifiques en utilisant [Rmarkdown](https://rmarkdown.rstudio.com/), __LaTeX__ et __Jupyter Notebook__ (présentations/rapports automatiques) -->
 
 Langues {#skills-langues}
 --------------------------------------------------------------------------------
@@ -90,7 +86,8 @@ Centres d'intérêt {#interests}
 
 * Violon - depuis 2005
 * Basketball 
-<!-- *Document généré le `r today <- Sys.Date();format(today, format="%d/%m/%Y")`.* -->
+
+*Document généré le `r today <- Sys.Date();format(today, format="%d/%m/%Y")`.*
 
 
 
@@ -100,7 +97,7 @@ Main
 <b style='color:#2980b9'>J</b>oan <b style='color:#2980b9'>K</b>o {#title}
 --------------------------------------------------------------------------------
 
-### Ingénieur en mathématiques appliquées | Statistiques & IA
+### Data Scientist | Ingénieur en mathématiques appliquées
 
 Expérience Professionnelle {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -111,7 +108,7 @@ _Mutuelle Prévifrance_
 
 Toulouse, France
 
-2026 - 2024
+Depuis 2024
 
 - __Tarification Santé & Prévoyance__ (marché public et privé), en support direct aux équipes commerciales.
 - Suivi de portefeuille : __Provisions techniques Solvabilité II__, création de __comptes de résultats__ et suivi du ratio P/C.
@@ -153,30 +150,30 @@ Toulouse, France
 - Data Mining de pour mise en place des stratégies d'investissement immobilier écologiques, __Python__, __SQL__.
 - Développement d'algorithmes de __traitement d'image__ pour automatiser la lecture de documents administratifs avec algorithmes d'__OCR__.
 
-### Stagiaire en traitement d'images
-_Comité International de la Croix-Rouge_
+<!-- ### Stagiaire en traitement d'images -->
+<!-- _Comité International de la Croix-Rouge_ -->
 
-Toulouse, France
+<!-- Toulouse, France -->
 
-2021
+<!-- 2021 -->
 
-- Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__.
-- Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images. 
-- Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, remplacement de traits faciaux avec des éléments d'une base de données.
+<!-- - Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__. -->
+<!-- - Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images.  -->
+<!-- - Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, remplacement de traits faciaux avec des éléments d'une base de données. -->
 
-Enseignement {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
+<!-- Enseignement {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-### Statistique descriptive
+<!-- ### Statistique descriptive -->
 
-__INSA Toulouse__
+<!-- __INSA Toulouse__ -->
 
-Toulouse, France
+<!-- Toulouse, France -->
 
-2024 (20h)
+<!-- 2024 (20h) -->
 
-- Enseignement TP pour les étudiants de 3ème année de Mathématiques Appliquées à l'INSA Toulouse.
-- Introduction à R, éléments de statistique descriptive, clustering.
+<!-- - Enseignement TP pour les étudiants de 3ème année de Mathématiques Appliquées à l'INSA Toulouse. -->
+<!-- - Introduction à R, éléments de statistique descriptive, clustering. -->
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -189,29 +186,29 @@ Toulouse, France
 
 2022 - 2017
 
-#### Matières :
+<!-- #### Matières : -->
 
-- Statistiques & Data Science : Statistique Inférentielle, Statistiques descriptives, Modélisation, Analyse de données, __Machine Learning & Deep Learning__
-- Mathématiques appliquées : Calcul stochastique, Optimisation, Actuariat, Modèles de durée de vie
-- Traitement du signal & Calcul scientifique : __Traitement d’image__, __Traitement du signal__, HPC (High Performance Computing)
+<!-- - Statistiques & Data Science : Statistique Inférentielle, Statistiques descriptives, Modélisation, Analyse de données, __Machine Learning & Deep Learning__ -->
+<!-- - Mathématiques appliquées : Calcul stochastique, Optimisation, Actuariat, Modèles de durée de vie -->
+<!-- - Traitement du signal & Calcul scientifique : __Traitement d’image__, __Traitement du signal__, HPC (High Performance Computing) -->
 
-#### Projets marquants : 
-- [Projet de monitoring d'incendies](https://github.com/jayalabanda/projet-CNES/tree/main) :
-    -  __Traitement d'images__ satellite __Sentinel-2__ et cartographie en collaboration avec le __CNES__ pour détecter, quantifier et étudier l'impact des incendies, avec __Python__.
-    - Acquisition et traitement d’images satellites (Sentinel) via __API Python__.
-    - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle).
-    - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées.
-    - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent).
-- Prédiction des cumuls journaliers de précipitations :
-    - Modélisation des précipitations journalières à partir de données de stations au sol.
-    - Mise en place de modèles de __Machine Learning__ (Random Forest, XGBoost, SVR, MLP).
-    - Benchmarking des modèles
+<!-- #### Projets marquants :  -->
+<!-- - [Projet de monitoring d'incendies](https://github.com/jayalabanda/projet-CNES/tree/main) : -->
+<!--     -  __Traitement d'images__ satellite __Sentinel-2__ et cartographie en collaboration avec le __CNES__ pour détecter, quantifier et étudier l'impact des incendies, avec __Python__. -->
+<!--     - Acquisition et traitement d’images satellites (Sentinel) via __API Python__. -->
+<!--     - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle). -->
+<!--     - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées. -->
+<!--     - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent). -->
+<!-- - Prédiction des cumuls journaliers de précipitations : -->
+<!--     - Modélisation des précipitations journalières à partir de données de stations au sol. -->
+<!--     - Mise en place de modèles de __Machine Learning__ (Random Forest, XGBoost, SVR, MLP). -->
+<!--     - Benchmarking des modèles -->
 
-- Projets de modélisation aléatoire :
-    - Approximation de π grâce au problème de l'aiguille de Buffon
-    - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette
-    - Détection de changement de boules sur un tirage d'EuroMillions
-    - Problème de Monty Hall, en __Python__ et __R__.
+<!-- - Projets de modélisation aléatoire : -->
+<!--     - Approximation de π grâce au problème de l'aiguille de Buffon -->
+<!--     - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette -->
+<!--     - Détection de changement de boules sur un tirage d'EuroMillions -->
+<!--     - Problème de Monty Hall, en __Python__ et __R__. -->
 
 ### Baccalauréat Scientifique - Mention Très Bien
 
