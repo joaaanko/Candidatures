@@ -3,45 +3,40 @@ title: "Joan Ko's resume"
 author: Joan Ko
 date: "`r Sys.Date()`"
 
+params:
+  company_name: "Crédit Agricole"
+
 output:
-  pagedown::html_resume:
-    css: ['cv.css', 'resume']
-    self_contained: true
+  pdf_document:
+    latex_engine: xelatex
 
 knit: |
   (function(input, ...) {
 
-    # ======= CHANGE COMPANY NAME HERE =======
-    company <- "Crédit Agricole"
-    # ========================================
+    # Safe access to params
+    args <- list(...)
+    params <- if(!is.null(args$params)) args$params else list(company_name="Full")
 
     # Sanitize company name for folder/file
-    company_clean <- gsub("\\s+", "_", company)
+    company <- gsub("\\s+", "_", params$company_name)
     date <- format(Sys.Date(), "%Y-%m")
 
     # Create nested output folder
-    out_dir <- file.path("output", company_clean, date)
+    out_dir <- file.path("output", company, date)
     dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
-    # HTML output path
-    html_file <- file.path(out_dir, paste0("CV_Joan_KO_", company_clean, ".html"))
+    # PDF output path
+    pdf_file <- file.path(out_dir, paste0("CV_Joan_KO_", company, ".pdf"))
 
-    # Render HTML with CSS
+    # Render PDF
     rmarkdown::render(
       input,
-      output_format = pagedown::html_resume(css = c('cv.css', 'resume'), self_contained = TRUE),
-      output_file = html_file,
+      output_format = rmarkdown::pdf_document(latex_engine="xelatex"),
+      output_file = pdf_file,
       envir = parent.frame()
     )
 
-    # PDF output path (silent, ignores favicon errors)
-    pdf_file <- file.path(out_dir, paste0("CV_Joan_KO_", company_clean, ".pdf"))
-    tryCatch(
-      pagedown::chrome_print(input = html_file, output = pdf_file),
-      error = function(e) invisible()
-    )
-
-    # Copy Rmd to same folder
+    # Copy Rmd into same folder
     file.copy(input, file.path(out_dir, basename(input)), overwrite = TRUE)
   })
 ---
