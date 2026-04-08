@@ -32,5 +32,5 @@ Le but est que l'intégralité de ce qui peut être mis dans le CV reste dans le
 ## TODO
 
 -   [ ] mettre `output/` une arborescence au dessus
-
+-   [ ] ajouter plus de documentation sur wrapper knit
 -   [ ] Faire code pour lettres de motivation
