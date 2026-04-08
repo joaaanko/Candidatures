@@ -1,5 +1,5 @@
 ---
-title: "Joan Ko's resume"
+title: "Joan Ko"
 author: Joan Ko
 date: "`r Sys.Date()`"
 
@@ -12,7 +12,7 @@ knit: |
   (function(input, ...) {
 
     # ======= CHANGE COMPANY NAME HERE =======
-    company <- "CLS"
+    company <- "Crédit Agricole"
     # ========================================
 
     # Sanitize company name
@@ -80,7 +80,7 @@ Data Science {#skills-datascience}
 - Inférence et prédiction en utilisant des modèles de __Machine Learning__ paramétriques & non-paramétriques avec __scikit-learn__.
 - __Deep Learning__ avec __Keras & Tensorflow__.
 - Computer Vision avec __OpenCV__.
-- Écritures de documents scientifiques en utilisant [Rmarkdown](https://rmarkdown.rstudio.com/), __LaTeX__ et __Jupyter Notebook__ (présentations/rapports automatiques)
+<!-- - Écritures de documents scientifiques en utilisant [Rmarkdown](https://rmarkdown.rstudio.com/), __LaTeX__ et __Jupyter Notebook__ (présentations/rapports automatiques) -->
 
 Langues {#skills-langues}
 --------------------------------------------------------------------------------
@@ -113,7 +113,7 @@ Expérience Professionnelle {data-icon=suitcase}
 
 ### Chargé d'études actuarielles
 
-_Mutuelle Prévifrance_
+_Mutuelle Prévifrance - Direction Technique _
 
 Toulouse, France
 
@@ -126,7 +126,7 @@ Depuis 2024
 
 ### Analyse de la spécificité des associations génétiques dans les études multi-population
 
-_INRAE_ -  Unité de Mathématiques et Informatique Appliquées de Toulouse (MIAT)
+_INRAE - Unité de Mathématiques et Informatique Appliquées de Toulouse (MIAT)_ 
 
 Toulouse & Jouy-en-Josas, France
 
@@ -139,7 +139,7 @@ Toulouse & Jouy-en-Josas, France
 
 ### Data Scientist
 
-_Capgemini Engineering_
+_Capgemini Engineering - Insights & Data_
 
 Toulouse, France
 
@@ -147,9 +147,9 @@ Toulouse, France
 
 - Implémentation d'algorithmes de **Computer Vision** pour guider un utilisateur à la bonne utilisation d'un inhalateur via __Deep Learning__, en __Python__.
 
-### Data Scientist
+### Data Scientist 
 
-_Caisse d'Epargne Midi-Pyréenées_
+_Caisse d'Epargne Midi-Pyréenées - Data & Décisionnel_
 
 Toulouse, France
 
@@ -159,30 +159,30 @@ Toulouse, France
 - Data Mining de pour mise en place des stratégies d'investissement immobilier écologiques, __Python__, __SQL__.
 - Développement d'algorithmes de __traitement d'image__ pour automatiser la lecture de documents administratifs avec algorithmes d'__OCR__.
 
-### Stagiaire en traitement d'images
-_Comité International de la Croix-Rouge_
+<!-- ### Stagiaire en traitement d'images -->
+<!-- _Comité International de la Croix-Rouge_ -->
 
-Toulouse, France
+<!-- Toulouse, France -->
 
-2021
+<!-- 2021 -->
 
-- Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__.
-- Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images.
-- Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, remplacement de traits faciaux avec des éléments d'une base de données.
+<!-- - Développement d'algorithmes de traitement d'images afin d'[améliorer l'identification de victimes à l'aide d'images médico-légales](https://theconversation.com/un-logiciel-pour-redonner-un-visage-aux-migrants-disparus-173104) avec __Python__. -->
+<!-- - Automatisation d'algorithmes semi-automatiques d'alignement, de recentrage et de suppression d'arrière-plan d'images via des modèles de __Deep Learning__ pour la segmentation sémantique d'images.  -->
+<!-- - Automatisation d'algorithmes de __traiment d'image__ spécifiques : synthèse de texture à l'aide de __GANs__, remplacement de traits faciaux avec des éléments d'une base de données. -->
 
-Enseignement {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
+<!-- Enseignement {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-### Statistique descriptive
+<!-- ### Statistique descriptive -->
 
-__INSA Toulouse__
+<!-- __INSA Toulouse__ -->
 
-Toulouse, France
+<!-- Toulouse, France -->
 
-2024 (20h)
+<!-- 2024 (20h) -->
 
-- Enseignement TP pour les étudiants de 3ème année de Mathématiques Appliquées à l'INSA Toulouse.
-- Introduction à R, éléments de statistique descriptive, clustering.
+<!-- - Enseignement TP pour les étudiants de 3ème année de Mathématiques Appliquées à l'INSA Toulouse. -->
+<!-- - Introduction à R, éléments de statistique descriptive, clustering. -->
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -195,29 +195,29 @@ Toulouse, France
 
 2022 - 2017
 
-#### Matières :
+<!-- #### Matières : -->
 
-- Statistiques & Data Science : Statistique Inférentielle, Statistiques descriptives, Modélisation, Analyse de données, __Machine Learning & Deep Learning__
-- Mathématiques appliquées : Calcul stochastique, Optimisation, Actuariat, Modèles de durée de vie
-- Traitement du signal & Calcul scientifique : __Traitement d’image__, __Traitement du signal__, HPC (High Performance Computing)
+<!-- - Statistiques & Data Science : Statistique Inférentielle, Statistiques descriptives, Modélisation, Analyse de données, __Machine Learning & Deep Learning__ -->
+<!-- - Mathématiques appliquées : Calcul stochastique, Optimisation, Actuariat, Modèles de durée de vie -->
+<!-- - Traitement du signal & Calcul scientifique : __Traitement d’image__, __Traitement du signal__, HPC (High Performance Computing) -->
 
-#### Projets marquants :
-- [Projet de monitoring d'incendies](https://github.com/jayalabanda/projet-CNES/tree/main) :
-    -  __Traitement d'images__ satellite __Sentinel-2__ et cartographie en collaboration avec le __CNES__ pour détecter, quantifier et étudier l'impact des incendies, avec __Python__.
-    - Acquisition et traitement d’images satellites (Sentinel) via __API Python__.
-    - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle).
-    - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées.
-    - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent).
-- Prédiction des cumuls journaliers de précipitations :
-    - Modélisation des précipitations journalières à partir de données de stations au sol.
-    - Mise en place de modèles de __Machine Learning__ (Random Forest, XGBoost, SVR, MLP).
-    - Benchmarking des modèles
+<!-- #### Projets marquants :  -->
+<!-- - [Projet de monitoring d'incendies](https://github.com/jayalabanda/projet-CNES/tree/main) : -->
+<!--     -  __Traitement d'images__ satellite __Sentinel-2__ et cartographie en collaboration avec le __CNES__ pour détecter, quantifier et étudier l'impact des incendies, avec __Python__. -->
+<!--     - Acquisition et traitement d’images satellites (Sentinel) via __API Python__. -->
+<!--     - Analyse de la végétation par __indice NDVI__ pour détecter les zones impactées (approche différentielle temporelle). -->
+<!--     - Croisement de données géospatiales (CORINE, MODIS) pour caractériser les surfaces brûlées. -->
+<!--     - Modélisation exploratoire de la dispersion des fumées à partir de données météorologiques (vent). -->
+<!-- - Prédiction des cumuls journaliers de précipitations : -->
+<!--     - Modélisation des précipitations journalières à partir de données de stations au sol. -->
+<!--     - Mise en place de modèles de __Machine Learning__ (Random Forest, XGBoost, SVR, MLP). -->
+<!--     - Benchmarking des modèles -->
 
-- Projets de modélisation aléatoire :
-    - Approximation de π grâce au problème de l'aiguille de Buffon
-    - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette
-    - Détection de changement de boules sur un tirage d'EuroMillions
-    - Problème de Monty Hall, en __Python__ et __R__.
+<!-- - Projets de modélisation aléatoire : -->
+<!--     - Approximation de π grâce au problème de l'aiguille de Buffon -->
+<!--     - Modélisation de la probabilité de tomber sur la fève lorsqu'on coupe une galette -->
+<!--     - Détection de changement de boules sur un tirage d'EuroMillions -->
+<!--     - Problème de Monty Hall, en __Python__ et __R__. -->
 
 ### Baccalauréat Scientifique - Mention Très Bien
 
